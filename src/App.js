@@ -20,14 +20,16 @@ import Addition from './component/Addition'
   import SearchingTheStudent from './component/Addition'
 import Increment from './component/Increment'
 import Login from './component/Login'
+import Calculator  from './component/Calculator'
 function App() {
   return (
     <div className="App">
       <h1>Vite + React</h1>
-      <Addition /> {/* Use your component here */}
-      <SearchingTheStudent /> {/* Use your component here */}
-       <Increment />{/* Use your component here */}
-        <Login />{/* Use your component here */}
+      {/* <Addition /> Use your component here */}
+      {/* <SearchingTheStudent /> {/* Use your component here */}
+       {/* <Increment />{/* Use your component here */}
+        {/* <Login /> */}
+        <Calculator />{/* Use your component here */}
       
     </div>
   )
