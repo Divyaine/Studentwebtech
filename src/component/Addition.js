@@ -1,16 +1,4 @@
-// import React from 'react'
 
-// function Addition() {
-//     let studentMarks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//     let totalSum = 0;
-
-//     return (
-//         <div><h1>This is the page is for adding numbers</h1>
-//         <p> this is the total doubled marks</p></div>
-//     )
-// }
-
-// export default Addition
 
 import React from 'react'
 
