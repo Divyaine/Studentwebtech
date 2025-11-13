@@ -70,7 +70,7 @@ function Calculator() {
         placeholder="Enter first number"
         value={num1}
         onChange={(e) => setNum1(e.target.value)}
-        style={{ margin: '10px', padding: '5px' }}
+        style={{ margin: '30px', padding: '10px' }}
       />
 
       <input
@@ -78,10 +78,10 @@ function Calculator() {
         placeholder="Enter second number"
         value={num2}
         onChange={(e) => setNum2(e.target.value)}
-        style={{ margin: '10px', padding: '5px' }}
+        style={{ margin: '30px', padding: '10px' }}
       />
 
-      <div style={{ marginTop: '20px' }}>
+      <div style={{ marginTop: '10px' }}>
         <button onClick={handleAddition}>+</button>
         <button onClick={handleSubtraction}>-</button>
         <button onClick={handleMultiplication}>*</button>
