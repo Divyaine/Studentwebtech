@@ -115,16 +115,16 @@ function Calculator() {
 
 const handleClick = (value) => {
   setDisplay((prev) => {
-    // Limit 21 characters
+    
     if (prev.length >= 21) return prev;
 
-    // Prevent multiple dots in the same number
+    
     if (value === ".") {
-      const parts = prev.split(/[\+\-\*\/\^\%]/); // split by operators
+      const parts = prev.split(/[\+\-\*\/\^\%]/); 
       const lastPart = parts[parts.length - 1];
 
       if (lastPart.includes(".")) {
-        return prev; // block second dot in same number
+        return prev; 
       }
     }
 
@@ -144,10 +144,10 @@ const handleClick = (value) => {
 
 const handleCalculate = () => {
   try {
-    // Convert ^ to ** for power
+    
     const expression = display.replace(/\^/g, "**");
     
-    // eslint-disable-next-line no-eval
+  
     const result = eval(expression);
 
     setDisplay(String(result));
